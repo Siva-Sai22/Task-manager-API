@@ -1,6 +1,6 @@
 const sqlite3 = require('sqlite3').verbose();
 
-const db = new sqlite3.Database(':memory:');
+const db = new sqlite3.Database('task_manager.db');
 
 db.serialize(() => {
   db.run(`

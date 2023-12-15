@@ -12,3 +12,5 @@ yarn.lock
 
 .DS_Store
 Thumbs.db
+
+task_manager.db
